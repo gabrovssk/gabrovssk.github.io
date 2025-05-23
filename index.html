@@ -1,1 +1,477 @@
-<h1>TESTE</h1>
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Currículo Online - Gabriel Ferreira Silva</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lora:wght@600&display=swap"
+        rel="stylesheet" />
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="dist/css/style.css" />
+</head>
+
+<body class="dark-theme">
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Ulisses</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="bx bx-home nav__icon"></i>Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class="bx bx-user nav__icon"></i>Profile</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class="bx bx-book nav__icon"></i>Education</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="bx bx-receipt nav__icon"></i>Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link"><i
+                                class="bx bx-briefcase-alt nav__icon"></i>Experience</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link"><i class="bx bx-award nav__icon"></i>Certificates</a>
+                    </li>
+                    <li class="nav__item hidden">
+                        <a href="#references" class="nav__link"><i
+                                class="bx bx-link-external nav__icon"></i>References</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-grid-alt"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="img/perfil.jfif" alt="Foto de perfil" class="home__img" />
+
+                            <h1 class="home__title">GABRIEL FERREIRA</h1>
+                            <h3 class="home__profession">Desenvolvedor Full-Stack Node | PHP | Laravel | React | Vue
+                            </h3>
+
+                            <div>
+                                <a download="" href="dist/assets/pdf/ResumeCv.pdf"
+                                    class="home__button-movil">Download</a>
+                            </div>
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class="bx bx-map home__icon"></i>Brasília - DF
+                            </span>
+                            <span class="home__information">
+                                <i class="bx bx-envelope home__icon"></i> gabrielferreirasilvati@gmail.com
+                            </span>
+                            <span class="home__information">
+                                <i class="bx bx-phone home__icon"></i> +55 (61) 98424-9399
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Theme change button -->
+                    <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+
+                    <!-- Button to generate and download the pdf. Available for desktop. -->
+                    <i class="bx bx-download generate-pdf" title="Gerar PDF" id="resume-button"></i>
+                </section>
+
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <h2 class="section-title">Social</h2>
+
+                    <div class="social__container bd-grid">
+                        <a href="https://www.linkedin.com/in/gabrovssk/" target="_blank" class="social__link">
+                            <i class="bx bxl-linkedin-square social__icon"></i> @gabrovssk
+                        </a>
+                        <a href="https://github.com/gabrovssk" target="_blank" class="social__link">
+                            <i class="bx bxl-github social__icon"></i> @gabrovssk
+                        </a>
+                    </div>
+                </section>
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile" style="text-align: center;">
+                    <h2 class="section-title" style="text-align: center;">Profile</h2>
+
+                    <p class="profile__description" style="text-align: center;">
+                        Meu nome é Gabriel e sou um desenvolvedor de software apaixonado por tecnologias que impulsionam
+                        e movem o conhecimento humano.
+                        Formado em Sistemas de Informação, tenho experiência na criação de soluções web robustas e
+                        escaláveis utilizando as tecnologias mais recentes,
+                        como PHP, Javascript, Typescript, Laravel, SQL, CodeIgniter, React, Vue, Node, Git, Scrum,
+                        Docker e outras.
+                        Sempre busco desafios e oportunidades para aperfeiçoar minhas habilidades e desenvolver soluções
+                        inovadoras.
+                    </p>
+                </section>
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">
+                                    Bacharelado, Sistemas de Informação
+                                </h3>
+                                <span class="education__studies">Unieuro</span>
+                                <span class="education__year">2018 - 2021</span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </section>
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Laravel / CodeIgniter
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Node
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Typescript
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Vue/React (Nuxt/Next)
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Redis
+                            </li>
+                        </ul>
+
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> SQL
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Redis
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Docker
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Git
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Sonarqube
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <div class="resume__right">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience__container bd-grid">
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Desenvolvedor Full-Stack Senior</h3>
+                                <span class="experience__company">
+                                    06/2023 até o momento | G4F
+                                </span>
+                                <p class="experience__description">
+                                    Como Desenvolvedor de Software na G4F desde junho de 2023, sou responsável por
+                                    projetar e implementar soluções de software de alta complexidade, priorizando a
+                                    robustez arquitetural, a escalabilidade e a eficiência. Meu trabalho envolve:
+                                    Desenvolvimento de Software: Criar a estrutura e os componentes dos sistemas com
+                                    foco em flexibilidade e capacidade de expansão.
+                                    Banco de Dados: Gerenciar dados de forma eficiente usando Microsoft SQL Server.
+                                    Desenvolvimento Backend: Utilizar PHP e Laravel para desenvolver APIs RESTful e
+                                    lógica do servidor.
+                                    Desenvolvimento Frontend: Construir interfaces de usuário dinâmicas e responsivas
+                                    com Vue.js e JavaScript/TypeScript.
+                                    Monitoramento e Qualidade: Utilizar Redis para caching e SonarQube para assegurar a
+                                    qualidade do código.
+                                    Além disso, colaboro estreitamente com equipes multidisciplinares para garantir que
+                                    as soluções técnicas estejam alinhadas com os objetivos de negócio, mantendo sempre
+                                    um alto nível de qualidade e eficiência no desenvolvimento.
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Desenvolvedor Back-end Pleno</h3>
+                                <span class="experience__company">
+                                    12/2023 até o momento | Campsoft
+                                </span>
+                                <p class="experience__description">
+                                    Desenvolvimento de Software: Planejar e implementar estruturas robustas e
+                                    componentes modulares em sistemas, priorizando flexibilidade e escalabilidade para
+                                    atender às demandas futuras.
+                                    Banco de Dados: Administrar e otimizar bancos de dados, utilizando MySQL para
+                                    garantir armazenamento eficiente e consultas rápidas.
+                                    Desenvolvimento Backend: Desenvolver APIs RESTful e lógica de servidor utilizando
+                                    Node.js (TypeScript) com o framework Fastify, garantindo performance e
+                                    confiabilidade.
+                                    Monitoramento e Qualidade: Empregar Redis para caching eficiente e utilizar
+                                    SonarQube para análises de código, assegurando padrões elevados de qualidade e
+                                    desempenho.
+                                    Colaboração e Alinhamento Estratégico: Trabalhar em sinergia com equipes
+                                    multidisciplinares, conectando requisitos técnicos e de negócio para entregar
+                                    soluções inovadoras que maximizam a eficiência e agregam valor ao cliente.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Desenvolvedor Full-Stack Pleno</h3>
+                                <span class="experience__company">
+                                    12/2021 até 07/2023 | Centro universitário IESB
+                                </span>
+                                <p class="experience__description">
+                                    Como desenvolvedor pleno, atuei com um conjunto diversificado de tecnologias,
+                                    incluindo PHP, Vue.js, JavaScript, TypeScript, Node.js,
+                                    SQL Server, Git, Docker, Laravel e CodeIgniter.
+                                    Minha responsabilidade principal foi projetar, desenvolver e manter soluções web de
+                                    alto desempenho e eficiência.
+                                    Trabalhei para garantir a escalabilidade, segurança e manutenção contínua das
+                                    aplicações, sempre aderindo às melhores práticas de desenvolvimento.
+                                    Além disso, colaborei com equipes multidisciplinares, utilizando metodologias ágeis
+                                    para entregar produtos robustos e alinhados com as necessidades do negócio.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Desenvolvedor Full-Stack Junior</h3>
+                                <span class="experience__company">
+                                    05/2021 até 12/2021 | Nosso - Inteligência Digital Aplicada
+                                </span>
+                            </div>
+
+
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Desenvolvedor PHP Junior</h3>
+                                <span class="experience__company">
+                                    12/2020 até 5/2021 | Basis Tecnologia da Informação S.A
+                                </span>
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Estagiário de desenvolvimento PHP</h3>
+                                <span class="experience__company">
+                                    08/2019 até 08/2020 | Banco do Brasil
+                                </span>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== CERTIFICATES ==========-->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">Certificates</h2>
+
+                    <div class="certificate__container bd-grid">
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">
+                                AI Foundations Associate Oracle Cloud Infrastructure 2024 Certified
+                            </h3>
+
+                            <p class="certificate__description">
+                               Verificação emitida em fev de 2024
+                            </p>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">
+                                Foundations Associate Oracle Cloud Infrastructure 2024 Certified
+                            </h3>
+                            
+                            <p class="certificate__description">
+                               Verificação emitida em fev de 2024
+                            </p>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">
+                                Foundations Associate Oracle Data Cloud Infrastructure 2024 Certified
+                            </h3>
+
+                            
+                            <p class="certificate__description">
+                               Verificação emitida em fev de 2024
+                            </p>
+                        </div>
+
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">
+                                Scrum Foundation Professional Certificate (SFPC)
+                            </h3>
+                            
+                            <p class="certificate__description">
+                               Verificação emitida em jul de 2020
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== REFERENCES ==========-->
+                <section class="references section hidden" id="references">
+                    <h2 class="section-title">References</h2>
+
+                    <div class="references__container bd-grid">
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Sr. Director</span>
+                            <h3 class="references__title">Mr. Clay Doe</h3>
+                            <ul class="references__contact">
+                                <li>Phone: 999-777-666</li>
+                                <li>E-mail: user@email.com</li>
+                            </ul>
+                        </div>
+
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Sr. Director</span>
+                            <h3 class="references__title">Mr. Clay Doe</h3>
+                            <ul class="references__contact">
+                                <li>Phone: 999-777-666</li>
+                                <li>E-mail: user@email.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section hidden">
+                    <h2 class="section-title">Languages</h2>
+
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Português
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Inglês
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--========== INTERESTS ==========-->
+                <section class="interests section">
+                    <h2 class="section-title">Interests</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class="bx bx-headphone interests__icon"></i>
+                            <span class="interests__name">Música</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="bx bx-movie-play interests__icon"></i>
+                            <span class="interests__name">Filmes e Séries</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="bx bxs-joystick interests__icon"></i>
+                            <span class="interests__name">Games</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="bx bxs-plane-alt interests__icon"></i>
+                            <span class="interests__name">Viajar</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="dist/assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="dist/js/script.js"></script>
+</body>
+
+</html>
